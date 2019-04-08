@@ -35,3 +35,18 @@ body,html{
     padding:100px 0px;
     background: #ffffff;
 }
+.section3{
+    min-height: 300px;
+    padding: 50px 0px;
+    background: #ffffff;
+}
+.link{
+    padding: 10px 15px;
+    color: crimson;
+}
+.link:hover{
+    background: #d2d2d2;
+    color: crimson;
+}
+    
+    

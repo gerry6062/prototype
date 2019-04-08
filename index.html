@@ -12,16 +12,30 @@
     </head>
     <body>
         <!--navbar-->
-        
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnya">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarnya">
+                    <div class="navbar-nav">
+                        <a class="link" href="#home">Home</a>
+                        <a class="link" href="#profile">Profile</a>
+                        <a class="link" href="#about">About</a>
+                        <a class="link" href="https://facebook.com" target="_blank">Our Facebook</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
         <!--section 1-->
-        <section class="section1">
+        <section class="section1" id="home">
             <img src="img/logo.png">
             <h1 class="judul">
             <strong>Percobaan Halaman Section 1</strong>    
             </h1>
         </section>
         <!--section 2-->
-        <section class="section2">
+        <section class="section2" id="profile">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-kiri">
@@ -40,18 +54,25 @@
             
         </section>
         <!--section 3-->
-        <section class="section3">
+        <section class="section3" id="about">
             <div class="container">
-                <div class="col col-kiri">
-                
+                <div class="row">
+                    <div class="col col-kiri">
+                        a
+                    </div>
+                    <div class="col">
+                        b
+                    </div>
+                    <div class="col col-kiri">
+                        c
+                    </div>
                 </div>
-                <div class="col">
                 
-                </div>
-                <div class="col col-kiri">
-                
-                </div>
             </div>
         </section>
+        <script type="text/javascript" src="js/wow.min.js"></script>        
+        <script type="text/javascript">
+         new WOW().init();
+        </script>
     </body>
 </html> 
