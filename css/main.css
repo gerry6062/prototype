@@ -7,56 +7,174 @@ body,html{
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 100px 0px;
+    padding: 170px 0px;
+    background-attachment: fixed;
     
+    
+}
+.isi1{
+    color: #ffffff;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    
+    
+}
+.lebar{
+    width: 50%;
+    
+}
+.atas{
+    text-align: center;
+    
+}
+.judul1{
+    font-size: 30px;
+    color: #F57F28;
+    padding: 10px;
+}
+.judul1:after{
+    content: '';
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    display: block;
+    width: 300px;
+    height: 4px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #F57F28;
     
 }
 .judul{
     font-family: calibri;
     font-size: 30px;
-    color: crimson;
-    
+    color: #F57F28;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+   
 }
 .sub-judul{
-    font-size: 24px;
-    
+    font-size: 20px;
+    color: #ffffff;
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     
 }
-.isi{
-    
+.fa-graduation-cap{
+    font-size: 150px;
+    margin-top: 20px;
+    margin-left: 35px;
+    color: #1D1C21;
 }
 .col-kiri{
-    background: #d2d2d2;
+    background: #1D1C21;
+    text-align: center;
+    padding-top: 20px;
     
-}
-.col-kanan{
-    background: #000000;
     
 }
 .section2{
     padding:100px 0px;
-    background: #ffffff;
+    background: #F57F28;
 }
 .section3{
     min-height: 300px;
     padding: 50px 0px;
-    background: #ffffff;
+    background: #1D1C21;
 }
 .link{
     padding: 10px 15px;
-    color: crimson;
+    color: #1D1C21;
+    font-weight: bold;
 }
 .link:hover{
-    background: #d2d2d2;
-    color: crimson;
+    background: #1D1C21;
+    color: #F57F28;
 }
 .sub-judul1{
     font-size: 18px;
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: left;
+}
+.sub-judul1 a{
+    text-decoration: underline;
 }
 .col-kanan2{
     background: #ffffff;
     text-align: center;
     padding: 50px 0px;
 }
-    
+.judul2{
+    color: #F57F28;
+    font-size: 30px;
+    text-align:left;
+}
+.col-tengah{
+    background-color: #ffffff;
+    padding-top: 20px;
+}
+.fa-map-marker-alt{
+    margin-right: 10px;
+}
+.judul3{
+    font-size: 30px;
+    margin-left: 20px;
+}
+.isi3{
+    font-size: 20px;
+    color: #1D1C21;
+    margin-top: 40px;
+}
+.judul4{
+    color: #F57F28;
+}
+.section5{
+    background-color: #1D1C21;
+    padding: 30px;
+}
+.judul5{
+    color: #F57F28;
+    text-align:center;
+}
+.coldata2, .coldata3 {
+    margin: auto;
+    float:left;
+    line-height: 35px;
+}
+.coldata4{
+    text-align: right;
+    margin: auto;
+    float: left;
+    font-size:150px;
+}
+.section6{
+    padding: 30px;
+}
+.coldata5{
+    text-align: center;
+    font-size: 30px;
+}
+.fa-facebook-f{
+    font-size: 50px;
+}
+.coldata6{
+    text-align: center;
+    font-size: 30px;
+}
+.fa-envelope{
+    font-size: 50px;
+}
+.coldata7{
+    text-align: center;
+    font-size: 30px;
+}
+.fa-phone{
+    font-size: 50px;
+}
     
